@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/home">ENSTALLATION</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/hommes">HOMMES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/installation">INSTALLATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/editorial">EDITORIAL</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <a routerLink="/compte" class="nav-link">COMPTE<i class='bx bxs-basket'></i></a>
+                <a routerLink="/panier">
+                    <img src="assets/icons/panier.png" alt="Logo" width="30" height="30">
+                </a>
+                <a routerLink="/menu">
+                    <img src="assets/icons/menu.png" alt="logoo" width="50" height="60">
+                </a>
+            </span>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>

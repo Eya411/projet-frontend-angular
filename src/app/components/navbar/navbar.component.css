@@ -1,0 +1,13 @@
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text a.nav-link {
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}

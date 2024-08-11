@@ -1,0 +1,20 @@
+.purchase-page {
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Hauteur de la page pour centrer verticalement */
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    border-left: 1px solid #ddd; /* Ligne de division */
+}
+
+.image-section, .description-section {
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
