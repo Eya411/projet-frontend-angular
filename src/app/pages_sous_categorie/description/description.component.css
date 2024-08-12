@@ -67,15 +67,21 @@
     cursor: pointer;
 }
 
-.dropdown-toggle, .dropdown-menu {
-    background-color: rgb(250, 249, 249);
-    color: rgb(0, 0, 0);
-    padding: 2px;
-    border: 1px solid black;
-    width: 117%;
-    margin: 10px 0 0 19px;
+
+.dropdown-container {
+    margin-top: 20px;
+    margin-left: 2%;
 }
 
+.dropdown-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+#size {
+    width: 120%;
+    padding: 10px;
+    font-size: 1em;
+}
 .btn-outline-secondary, .btn-outline-third {
     padding: 5px;
     width: 120%;

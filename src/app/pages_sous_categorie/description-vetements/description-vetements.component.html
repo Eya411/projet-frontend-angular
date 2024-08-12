@@ -36,20 +36,17 @@
             <span class="fin" (click)="showModal('shippingReturnModal')">LIVRAISON ET RETOUR</span>
         </div>
 
-        <div class="dropdown">
-            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                TAILLE
-            </button>
-            <ul class="dropdown-menu">
-                <li><button class="dropdown-item" type="button">XL-deux articles restants</button></li>
-                <li><button class="dropdown-item" type="button">M-trois articles restants</button></li>
-                <li><button class="dropdown-item" type="button">S-hors stock</button></li>
-                <li><button class="dropdown-item" type="button">Taille unique</button></li>
-            </ul>
+        <div class="dropdown-container">
+            <label for="size">TAILLE</label>
+            <select id="size" name="size">
+                <option value="L">L - Deux articles restants</option>
+                <option value="M">M - Trois articles restants</option>
+                <option value="S">S - Quatre articles restants</option>
+            </select>
         </div>
 
         <div class="btn-container">
-            <button class="btn-outline-secondary" routerLink="/panier">Ajouter au panier</button>
+            <button class="btn-outline-secondary" routerLink="/panierproduits">Ajouter au panier</button>
         </div>
         <h5 class="cv">Description:</h5>
         <div class="description-section2">

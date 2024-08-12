@@ -1,4 +1,3 @@
-<!-- Content Section -->
 <h5 class="ccc">Femme-Accessoire</h5>
 <div class="horizontal-line"></div>
 
@@ -35,21 +34,20 @@
             <span class="fin" (click)="showModal('shippingReturnModal')">LIVRAISON ET RETOUR</span>
         </div>
 
-        <div class="dropdown">
-            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                TAILLE
-            </button>
-            <ul class="dropdown-menu">
-                <li><button class="dropdown-item" type="button">XL-deux articles restants</button></li>
-                <li><button class="dropdown-item" type="button">M-trois articles restants</button></li>
-                <li><button class="dropdown-item" type="button">S-hors stock</button></li>
-                <li><button class="dropdown-item" type="button">Taille unique</button></li>
-            </ul>
+        <div class="dropdown-container">
+            <label for="size">TAILLE</label>
+            <select id="size" name="size">
+                <option value="L">Taille Unique</option>
+                <option value="L">L - Deux articles restants</option>
+                <option value="M">M - Trois articles restants</option>
+                <option value="S">S - Quatre articles restants</option>
+            </select>
         </div>
 
         <div class="btn-container">
-            <button class="btn-outline-secondary" routerLink="/panier">Ajouter au panier</button>
+            <button class="btn-outline-secondary" routerLink="/panierproduits">Ajouter au panier</button>
         </div>
+
         <h5 class="cv">Description:</h5>
         <div class="description-section2">
             <ul>
@@ -62,10 +60,8 @@
     </div>
 </div>
 
-
-
 <div id="sizeGuideModal" class="modal">
-    <div class="modal-content  fixed-size-modal ">
+    <div class="modal-content fixed-size-modal">
         <span class="close" (click)="closeModal('sizeGuideModal')">&times;</span>
         <div class="guide-container">
             <table class="guide-table">
@@ -94,12 +90,12 @@
             <div class="button-row">
                 <button class="btn-size1">CM</button>
                 <button class="btn-size">INCH</button>
-                <button class="btn-country" style="text-decoration-line: underline;">CHANGER PAYS</button>
+                <button class="btn-country" style="text-decoration: underline;">CHANGER PAYS</button>
             </div>
             <table class="size-table">
                 <thead>
                     <tr>
-                        <th>COULEUR </th>
+                        <th>COULEUR</th>
                         <th>TAILLE</th>
                     </tr>
                 </thead>
@@ -117,12 +113,12 @@
                 </tbody>
             </table>
         </div>
-            <div class="note">
-                <p>VOUS AVEZ UN DOUTE CONCERNANT LA TAILLE À CHOISIR ?</p>
-                <p>En contactant le service client, j’accepte que mes données soit transférées hors de mon pays/ma région.
+        <div class="note">
+            <p>VOUS AVEZ UN DOUTE CONCERNANT LA TAILLE À CHOISIR ?</p>
+            <p>En contactant le service client, j’accepte que mes données soient transférées hors de mon pays/ma région.
                 Nous appeler +33 7 49 49 23 68 Lun-Sam 10h00 – 19h00</p>
-                <p>Envoyer un email Nous vous répondrons dans un délai de 24 heures</p>
-            </div>
+            <p>Envoyer un email Nous vous répondrons dans un délai de 24 heures</p>
+        </div>
     </div>
 </div>
 

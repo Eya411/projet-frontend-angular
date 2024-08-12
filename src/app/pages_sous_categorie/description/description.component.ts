@@ -37,7 +37,35 @@ export class DescriptionComponent implements OnInit {
       price: '40DT',
       colors: 'Beige, Noir, Blanc',
       size: 'Unique'
+    },
+    {
+      id: '852',
+      image: 'assets/images/sac-femme-1.png',
+      title: 'Sac a main tendance',
+      description: 'Sac a main tendance pour tout les genres',
+      price: '120DT',
+      colors: 'Beige, Noir, Rouge, Blanc, Marron',
+      size: 'L, M, S'
+    },
+    {
+      id: '003',
+      image: 'assets/images/sac-femme-2.png',
+      title: 'Sac a main femme',
+      description: 'Sac a main pour femmes chic',
+      price: '150DT',
+      colors: 'Marron, Noir',
+      size: 'L, M, S'
+    },
+    {
+      id: '242',
+      image: 'assets/images/sac-femme-3.png',
+      title: 'Sac a main tendance',
+      description: 'Sac en plusieurs Couleurs pour un meilleur look',
+      price: '180DT',
+      colors: 'Beige, Noir',
+      size: 'L, M, S'
     }
+
   ];
 
   constructor(private route: ActivatedRoute) {}

@@ -76,7 +76,7 @@ export class DescriptionVetementsComponent implements OnInit {
     },
     {
       id: '122223003',
-      image: 'assets/images/pull-femme-2.png',
+      image: 'assets/images/pull-femme-2.jpg',
       title: 'PULL FEMME MODERNE',
       description: 'Pull femme tendance',
       price: '50DT',
